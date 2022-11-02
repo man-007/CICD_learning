@@ -20,4 +20,5 @@ jobs:
     - name: Making changes in file position
       run: |
         sudo rm /var/www/html/index.html
-        sudo mv /home/ubuntu/actions-runner/_work/CICD_learning/CICD_learning/index.html /var/www/html
+        cd /home/ubuntu/actions-runner/_work/CICD_learning/CICD_learning/
+        sudo mv index.html /var/www/html
